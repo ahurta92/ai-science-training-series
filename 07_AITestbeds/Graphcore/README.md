@@ -76,11 +76,12 @@ e.g. `srun --ipus=1 python mnist_poptorch.py`
 
 ## Homework
 
-Understand meaning of flags  `--ipus-per-replica` and `--replication-factor`. Run BERT example by changing values of these parameters and observe the performance implications. 
+Run MNIST example by changing values of the input parameters like batch-size, learning rate and number of epochs trained and observe and report the performance implications. 
 
 ## Additional Examples (Optional)
 
 * [GPT2](./gpt2.md)
+* [MNIST](./mnist.md)
 
 ```bash
 Note: Precompiled artifacts are present at the /software/graphcore/projects/models_compile location for the above models.
